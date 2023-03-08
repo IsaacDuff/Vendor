@@ -1,1 +1,5 @@
 /* BASIC STYLES HERE */
+.imgSize {
+    max-height: 120px;
+    width: auto;
+}

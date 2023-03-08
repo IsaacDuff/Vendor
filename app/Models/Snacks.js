@@ -15,7 +15,7 @@ export class Snack {
         return `
         <div class="col-4 text-center bg-dark text-light">
         <h2>${this.name}</h2>
-        <img src=${this.imgUrl} alt="Candy Bar">
+        <img class="imgSize" src=${this.imgUrl} alt="Candy Bar">
         <h4>${this.price}</h4>
         </div>
         `
