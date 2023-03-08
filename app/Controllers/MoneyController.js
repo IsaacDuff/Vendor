@@ -7,9 +7,7 @@ import { moneyService } from "../Services/MoneyService.js";
 function _drawMoney() {
     console.log('drawing Money')
     let template = appState.Money
-    // for (let i = 0; i < template; i += (template + .25)) {
-    //     console.log(template)
-    // }
+
     setText('amount', template)
 }
 

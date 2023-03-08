@@ -26,6 +26,6 @@ export class SnacksController {
     buySnack(name) {
 
         console.log('bought snack')
-        // snackService.buySnack()
+        snackService.buySnack(name)
     }
 }
