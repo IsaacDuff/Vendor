@@ -2,7 +2,7 @@ import { appState } from "../AppState.js"
 
 class MoneyService {
     addMoney() {
-        appState.Money++
+        appState.Money += 0.25
         console.log(appState.Money);
 
     }
