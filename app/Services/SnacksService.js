@@ -12,9 +12,8 @@ class SnacksService {
         if (appState.Money >= food.price) {
             // console.log("more")
             appState.Money -= food.price
-
         } else {
-            console.log("poor bitch")
+            alert("Get More Dough Bby")
         }
         // console.log(food, 'found it')
 
